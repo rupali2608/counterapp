@@ -1,0 +1,7 @@
+.Container {
+  border: "2px solid #3eb489";
+  border-radius: 10px;
+  padding: 50px;
+  padding-bottom: 30px;
+  background-color: #3eb489;
+}
