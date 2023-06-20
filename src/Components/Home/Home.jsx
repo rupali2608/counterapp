@@ -15,7 +15,7 @@ class Home extends Component {
         <h1>{this.props.title}</h1>
         <h1>{this.state.count} </h1>
         <br />
-        <Button
+        <button
           onClick={() => {
             console.log("Increment clicked");
             this.setState({
@@ -26,8 +26,8 @@ class Home extends Component {
           color="primary"
         >
           Increment
-        </Button>
-        <Button
+        </button>
+        <button
           onClick={() => {
             console.log("Decrement clicked");
             this.setState({
@@ -39,10 +39,10 @@ class Home extends Component {
           style={{ marginLeft: "10px" }}
         >
           Decrement
-        </Button>
+        </button>
         <br />
         <br />
-        <Button
+        <button
           onClick={() => {
             console.log("Reset");
             this.setState({
@@ -54,7 +54,7 @@ class Home extends Component {
           style={{ width: "200px" }}
         >
           Reset
-        </Button>
+        </button>
       </div>
     );
   }
