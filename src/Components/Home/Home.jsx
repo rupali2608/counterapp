@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
+import Button from "@material-ui/core/Button";
 
 class Home extends Component {
   constructor(props) {
@@ -21,6 +22,8 @@ class Home extends Component {
               count: this.state.count + 1,
             });
           }}
+          variant="contained"
+          color="primary"
         >
           Increment
         </Button>
@@ -31,6 +34,8 @@ class Home extends Component {
               count: this.state.count - 1,
             });
           }}
+          variant="contained"
+          color="primary"
           style={{ marginLeft: "10px" }}
         >
           Decrement
@@ -44,6 +49,8 @@ class Home extends Component {
               count: 0,
             });
           }}
+          variant="contained"
+          color="secondary"
           style={{ width: "200px" }}
         >
           Reset
